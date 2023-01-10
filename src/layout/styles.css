@@ -106,3 +106,21 @@ div.logo {
     justify-content: flex-end;
     color: #E7816B !important;
 }
+
+.halfway-card{
+    background-color: #E7816B;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    /* bottom: 20px; */
+    top: -50%;
+    width: 80%;
+    margin: auto;
+}
+
+.card-text{
+    /* flex: 0.5; */
+}

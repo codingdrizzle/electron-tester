@@ -8,6 +8,12 @@ import { AiFillInstagram } from 'react-icons/ai'
 const Footer = () => {
     return (
         <footer className='footer'>
+            <div className='halfway-card'>
+                <div className='card-text'>
+                    <h1>Let’s talk about your project</h1>
+                </div>
+                <button className='card-btn'>GET IN TOUCH</button>
+            </div>
             <nav>
                 <Logo color='#fff' />
                 <div className='nav-links'>
