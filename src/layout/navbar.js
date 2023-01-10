@@ -1,16 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
+import Logo from '../commons/logo'
 // import logo from '../assets/oval,png'
 
 const Navbar = () => {
     return (
         <nav>
-            <Link to={'/'} className='company-name'>
-                <div className="logo"></div>
-                {/* <img src={logo} alt="app logo" width={70} /> */}
-                DESIGNO
-            </Link>
+            <Logo color='#333136'/>
             <div className='nav-links'>
                 <Link className='nav-link'>our company</Link>
                 <Link className='nav-link'>locations</Link>
