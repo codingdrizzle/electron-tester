@@ -8,13 +8,15 @@ import { AiFillInstagram } from 'react-icons/ai'
 const Footer = () => {
     return (
         <footer className='footer'>
+            {/* Halfway card */}
             <div className='halfway-card'>
                 <div className='card-text'>
-                    <h1>Let’s talk about your project</h1>
+                    <h1>Let’s talk about<br />your project</h1>
                 </div>
                 <button className='card-btn'>GET IN TOUCH</button>
             </div>
-            <nav>
+            {/* Halfway card */}
+            <nav style={{marginBottom: 40}}>
                 <Logo color='#fff' />
                 <div className='nav-links'>
                     <Link className='nav-link link-light'>our company</Link>
@@ -22,7 +24,8 @@ const Footer = () => {
                     <Link className='nav-link link-light'>contact</Link>
                 </div>
             </nav>
-            <div className='footer-details'>
+            <hr style={{width: '100%', opacity: 0.1}} />
+            <div className='footer-details' style={{marginTop: 30}}>
                 <div className='location-details'>
                     <p style={{fontWeight: 800}}>Designo Central Office</p>
                     <p>3886 Wellington Street</p>
