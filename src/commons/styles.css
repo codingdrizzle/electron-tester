@@ -1,0 +1,50 @@
+.jumbotron {
+    width: 100%;
+    padding: 5% 8%;
+    background: url('../assets/bg-card.svg');
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jumbotron-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.jumbotron-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Card styles */
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+}
+.card-img{
+    flex: 0.7;
+    /* background: url('../assets/express-desktop.png'); */
+    background-color: azure;
+}
+/* .card-img img{
+    width: 100%;
+    height: auto;
+} */
+.card-footer{
+
+}

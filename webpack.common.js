@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
@@ -35,12 +36,8 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
+                test: /\.(png|jpe?g|gif|svg)$/i,
+                use: ['file-loader'],
             },
         ]
     },
